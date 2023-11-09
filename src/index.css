@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: .5rem
+}
+
+p {
+    margin: 0;
+}
+
+dialog {
+    border: 0;
+    padding: .5rem;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px #00000033;
+}
+
+dialog::backdrop {
+    background-color: #00000063;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.delete-icon {
+    color: red;
+    cursor: pointer;
+}
